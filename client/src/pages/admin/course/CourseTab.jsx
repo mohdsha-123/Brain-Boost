@@ -182,7 +182,7 @@ const CourseTab = () => {
                   <SelectGroup>
                     <SelectLabel>Category</SelectLabel>
                     <SelectItem value="Next JS">Next JS</SelectItem>
-                    <SelectItem value="Data Science">Data Science</SelectItem>
+                    <SelectItem value="DSA">Data Structures and Algorithms</SelectItem>
                     <SelectItem value="Frontend Development">
                       Frontend Development
                     </SelectItem>
@@ -194,7 +194,7 @@ const CourseTab = () => {
                     </SelectItem>
                     <SelectItem value="Javascript">Javascript</SelectItem>
                     <SelectItem value="Python">Python</SelectItem>
-                    <SelectItem value="Docker">Docker</SelectItem>
+                    <SelectItem value="Docker">Reactjs</SelectItem>
                     <SelectItem value="MongoDB">MongoDB</SelectItem>
                     <SelectItem value="HTML">HTML</SelectItem>
                   </SelectGroup>
