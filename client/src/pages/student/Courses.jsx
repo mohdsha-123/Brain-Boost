@@ -36,18 +36,15 @@ const Courses = () => {
           //   <button
           //     onClick={loadMore}
           //     className="text-blue-700 hover:underline p-7 text-center w-full"
-              
+
           //   >
           //     Load More
           //   </button>
           // </div>
-          <div
-          onClick={loadMore}
-          className="flex justify-center mt-6">
-            <Button 
-          className="bg-blue-600 dark:bg-gray-800 text-white rounded-full hover:bg-white hover:text-blue-600">
-            Show more
-          </Button>
+          <div onClick={loadMore} className="flex justify-center mt-6">
+            <Button className="bg-blue-600 dark:bg-gray-800 text-white rounded-full hover:bg-white hover:text-blue-600">
+              Show more
+            </Button>
           </div>
         )}
       </div>

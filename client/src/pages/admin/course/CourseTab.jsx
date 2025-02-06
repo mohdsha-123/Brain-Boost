@@ -206,7 +206,7 @@ const CourseTab = () => {
                     </SelectItem>
                     <SelectItem value="Javascript">Javascript</SelectItem>
                     <SelectItem value="Python">Python</SelectItem>
-                    <SelectItem value="Docker">Reactjs</SelectItem>
+                    <SelectItem value="react">Reactjs</SelectItem>
                     <SelectItem value="MongoDB">MongoDB</SelectItem>
                     <SelectItem value="HTML">HTML</SelectItem>
                     <SelectItem value="AI">Artificial Intelligence</SelectItem>

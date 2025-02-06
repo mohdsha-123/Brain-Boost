@@ -13,14 +13,14 @@ import { Separator } from "@/components/ui/separator";
 import React, { useState } from "react";
 
 const categories = [
-  { id: "nextjs", label: "Next JS" },
-  { id: "data science", label: "Data Science" },
-  { id: "frontend development", label: "Frontend Development" },
-  { id: "fullstack development", label: "Fullstack Development" },
-  { id: "mern stack development", label: "MERN Stack Development" },
-  { id: "backend development", label: "Backend Development" },
-  { id: "javascript", label: "Javascript" },
-  { id: "python", label: "Python" },
+  { id: "Next JS", label: "Next JS" },
+  { id: "DSA", label: "Data Structures and Algorithms" },
+  { id: "Frontend Development", label: " Frontend Development" },
+  { id: "Fullstack Development", label: "Fullstack Development" },
+  { id: "MERN Stack Development", label: "MERN Stack Development" },
+  { id: "React", label: "React Js" },
+  { id: "Javascript", label: "Javascript" },
+  { id: "Python", label: "Python" },
   { id: "docker", label: "Docker" },
   { id: "mongodb", label: "MongoDB" },
   { id: "html", label: "HTML" },
