@@ -23,6 +23,8 @@ import {
 } from "./components/ProtectedRoutes";
 import PurchaseCourseProtectedRoute from "./components/PurchaseCourseProtectedRoute";
 import { ThemeProvider } from "./components/ThemeProvider";
+import FooterCom from "./components/Footer";
+
 
 const appRouter = createBrowserRouter([
   {
@@ -35,6 +37,7 @@ const appRouter = createBrowserRouter([
           <>
             <HeroSection />
             <Courses />
+            <FooterCom />
           </>
         ),
       },
