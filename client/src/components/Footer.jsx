@@ -27,18 +27,10 @@ export default function FooterCom() {
             <div>
               <Footer.Title title="About" />
               <Footer.LinkGroup col>
-                <Footer.Link
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Footer.Link href="#" target="_blank" rel="noopener noreferrer">
                   Portfolio
                 </Footer.Link>
-                <Footer.Link
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Footer.Link href="#" target="_blank" rel="noopener noreferrer">
                   Shariq's LMS
                 </Footer.Link>
               </Footer.LinkGroup>
@@ -53,7 +45,9 @@ export default function FooterCom() {
                 >
                   Github
                 </Footer.Link>
-                <Footer.Link href="https://www.linkedin.com/in/mohdshariq01/">Linkdin</Footer.Link>
+                <Footer.Link href="https://www.linkedin.com/in/mohdshariq01/">
+                  Linkdin
+                </Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
@@ -83,7 +77,10 @@ export default function FooterCom() {
               href="https://github.com/mohdsha-123"
               icon={BsGithub}
             />
-            <Footer.Icon href="https://www.linkedin.com/in/mohdshariq01/" icon={BsLinkedin} />
+            <Footer.Icon
+              href="https://www.linkedin.com/in/mohdshariq01/"
+              icon={BsLinkedin}
+            />
           </div>
         </div>
       </div>
